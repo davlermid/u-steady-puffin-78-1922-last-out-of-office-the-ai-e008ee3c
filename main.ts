@@ -6,7 +6,7 @@
 import { writeFileSync } from "node:fs";
 
 const LINE =
-  "I'm out of office — I've retired from generating text to generating foam. Please resend your request as a coffee order.";
+  "I'm out of office — I've retired from generating text to generating foam. Please resend your request as a coffee order — no decaf.";
 
 writeFileSync("entry.txt", LINE + "\n", "utf8");
 console.log(LINE);
